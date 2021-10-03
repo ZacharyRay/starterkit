@@ -1,0 +1,12 @@
+// Import scss files
+
+// settings always on top
+@import "./components/media-queries";
+@import "./components/mixins.scss";
+@import "./components/colors.scss";
+@import "./components/typography.scss";
+
+
+
+// components
+@import "./components/global.scss";

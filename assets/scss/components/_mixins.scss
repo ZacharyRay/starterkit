@@ -1,0 +1,17 @@
+@mixin g-width {
+    max-width: 1400px;
+    margin: auto;
+}
+
+@mixin g-padding {
+    padding: 0px 20px;
+}
+
+@mixin remove-margin-blocks {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+@mixin border-radius {
+    border-radius: 7px;
+}

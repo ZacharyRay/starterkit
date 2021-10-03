@@ -1,0 +1,48 @@
+$font: 'Quicksand', sans-serif;
+
+
+@mixin size-500 {
+    font-size: 1.6rem;
+    font-family: $font;
+    font-weight: 600;
+}
+
+@mixin size-400 {
+    font-size: 1.3rem;
+    font-family: $font;
+    font-weight: 500;
+}
+@mixin size-400-bold {
+    font-size: 1.3rem;
+    font-family: $font;
+    font-weight: 500;
+}
+
+@mixin size-300 {
+    font-size: 1rem;
+    font-family: $font;
+    font-weight: 500;
+}
+@mixin size-300-bold {
+    font-size: 1rem;
+    font-family: $font;
+    font-weight: 600;
+}
+
+@mixin size-200 {
+    font-size: 0.9rem;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin size-100 {
+    font-size: 0.8rem;
+    font-family: $font;
+    font-weight: 400;
+}
+
+@mixin size-000 {
+    font-size: 0.7rem;
+    font-family: $font;
+    font-weight: 400;
+}
